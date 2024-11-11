@@ -15,9 +15,10 @@
    </ul>
 </ul>
 <ul>
-   <li>Código:</li>
-    <a href ="https://github.com/damiancd/SIG.git">Github</a>
-   <li>WebHosting:</li>
-    <a href ="https://sig-papelera.netlify.app/">Netlify</a>
+   <li>Código y WebHostin:</li>
+      <ul>
+         <li> <a href ="https://github.com/damiancd/SIG.git">Github</a></li>
+         <li><a href ="https://sig-papelera.netlify.app/">Netlify</a></li>
+      </ul>   
 </ul>
    
