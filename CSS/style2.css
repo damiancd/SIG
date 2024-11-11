@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to bottom, #92f0f3, #f5f5f5 50%, #92f0f3);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.top-bar {
+    background-color: hsl(0, 1%, 34%);
+    height: 1%;           /* Ajusta la altura de la barra */
+    width: 100%;
+    color: #ffffff;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center
+}
+
+.top-bar p {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    color: #ffffff;
+    gap: 5px;  /*Espacio entre iconos y texto */
+}
+
+main {
+    flex: 1; /* Esto asegura que el contenido principal ocupe el espacio restante */
+}
+
+main, footer {
+    padding: 10px;
+    border:  2px solid #333;
+    margin: 20px;
+}
+
+/* Footer container for alignment */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Social media section within footer */
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-media h2 {
+    margin-right: 10px;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    width: 100%;
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado en el interior del footer */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+
+footer p,
+footer h2 {
+    margin: 10px 0; /* Margen superior e inferior */
+}
+
+footer a {
+    margin: 0 10px; /* Espaciado entre los iconos */
+    color: #fff; /* Color de los iconos */
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
+
+.right{
+    text-align: right;
+}
+
+.menu-section{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid hsl(0, 0%);
+ }
+
+ .menu-simple-menu ul { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(0, 1%, 34%);
+ }
+
+ .menu-simple-menu li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+ }
+
+ .menu-simple-menu li a:hover{
+     background: hsl(0, 0%, 25%);
+ }
+
+a {
+    text-decoration: none;
+}
+
+
+/* Estilos de encabezados */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Header con logo y título */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-right: 15px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.services_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Contenedor de productos */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos de las Cards */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: tranform 0.2s;
+
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilos de la columna del formulario */
+.form-column {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la columna del mapa */
+.map-column {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.reviews-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilos de las Cards de Reseña */
+.review-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review-card p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+}
+
+/*flex-box*/
+.menu-simple-menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*Este código hace que los elementos <li> dentro de .menu-simple-menu se distribuyan equitativamente y ocupen el espacio horizontal disponible sin encogerse.*/
+
+.menu-simple-menu li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Ajustes de estilo para los elementos de sección */
+.video-grid section {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.video-grid h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.video-grid p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Media Queries para responsive */
+@media screen and (max-width: 992px) {
+    .gallery {
+        justify-content: center;
+    }
+
+    .image-container {
+        width: 250px;
+        margin: 10px;
+    }
+
+    .reviews-container {
+        grid-template-columns: repeat(2, 1fr)}
+
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .gallery {
+        justify-content: center;
+    }
+
+    .image-container {
+        width: 250px;
+        margin: 10px;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;}
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    .social-media {
+        gap: 10px;
+    }
+
+    footer p {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    header footer img {
+        width: 25px;
+        margin: 0 8px;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .reviews-container {
+        grid-template-columns: 1fr;}
+
+    .video-grid {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer p {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    footer img {
+        width: 20px;
+        margin: 5px;
+    }
+}
