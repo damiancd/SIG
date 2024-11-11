@@ -12,10 +12,6 @@ body, html {
     flex-direction: column;
 }
 
-legend {
-    font-weight: bold;
-}
-
 /* Top Bar */
 .top-bar {
     background-color:#666;
@@ -227,10 +223,16 @@ nav ul li {
     margin: 5px 0;
 }
 
-iframe {
+.iframe1 {
     border: 0;
     width: 100%;
     height: 315px;;
+}
+
+.iframe2 {
+    border: 0;
+    width: 100%;
+    height: 500px;;
 }
 
 /* Responsive Styles */
