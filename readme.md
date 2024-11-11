@@ -7,7 +7,7 @@
 *Profesor:* **Carlos Arroyo**
 <ul>
 <br>
-<li>## Tecnología Utilizada:##</li> 
+<li>**Tecnología Utilizada:**</li> 
    <li>html.</li>
    <li>CSS.</li>
    <li>Github.</li>
