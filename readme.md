@@ -1,4 +1,4 @@
-#**Pre-entrega HTML+CSS.** 🇦🇷
+#Pre-entrega HTML+CSS. 🇦🇷
 
 ## Creado por Damian Diaz.
 *Institución:* **Talento Tech.**
