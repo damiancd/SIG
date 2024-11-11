@@ -1,13 +1,13 @@
 # ***Pre-entrega HTML+CSS.***
 
 ## Creado por Damian Diaz.
-*Institución: Talento Tech.*
+*Institución:* **Talento Tech.**
 *Curso:* **JS FrontEnd** 
 *Comision:* **24232**
 *Profesor:* **Carlos Arroyo**
 <ul>
 <br>
-<li>**Tecnología Utilizada:**</li> 
+<li>##Tecnología Utilizada:</li>
    <li>html.</li>
    <li>CSS.</li>
    <li>Github.</li>
