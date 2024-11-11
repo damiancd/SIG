@@ -1,4 +1,4 @@
-# ***Pre-entrega HTML+CSS.***
+# ***Pre-entrega HTML+CSS.***🇦🇷
 
 ## Creado por Damian Diaz.
 *Institución:* **Talento Tech.**
@@ -15,7 +15,7 @@
    </ul>
 </ul>
 <ul>
-   <li>Código y WebHostin:</li>
+   <li>Código y WebHosting:</li>
       <ul>
          <li> <a href ="https://github.com/damiancd/SIG.git">Github</a></li>
          <li><a href ="https://sig-papelera.netlify.app/">Netlify</a></li>
