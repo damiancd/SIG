@@ -6,8 +6,7 @@
 *Comision:* **24232**
 *Profesor:* **Carlos Arroyo**
 <br>
-<ul>
-<li>Tecnología Utilizada:</li>
+<ul>Tecnología Utilizada:
    <li>html.</li>
    <li>CSS.</li>
    <li>Github.</li></ul>
