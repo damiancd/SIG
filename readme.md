@@ -21,4 +21,7 @@
          <li><a href ="https://sig-papelera.netlify.app/">Netlify</a></li>
       </ul>   
 </ul>
+
+## Objetivo:
+<p>Crear un Sitio Web para un Negocio del rubro de Papelera y Cotillón.</p>
    
