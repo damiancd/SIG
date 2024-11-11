@@ -16,25 +16,23 @@
                 <i class="fas fa-phone"></i> Tel: 4692 3937 &nbsp; 
                 <i class="fab fa-whatsapp"></i> WhatsApp: 11 6354 9362 &nbsp; 
                 <i class="fas fa-clock"></i> Lunes a Viernes de 8 a 16hs y Sábados 8 a 14hs.
-            </p>
         </div>
         <div class="header-content">
             <img src="../static/img/logo.png" alt="LogoNegocio" class="logo">
             <h1>SIG Papelera</h1>
     </div>
     </header>
-    <div section class="menu-section">
-            <nav class="menu-simple-menu">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="./servicios.html">Servicios</a></li>
-                    <li><a href="./resenia.html">Reseñas</a></li>
-                    <li><a href="#">Acerca de Nostros</a></li>
-                    <li><a href="#">Acceso</a></li>        
-                </ul>
-            </nav>
-        </section>
+    <div class="menu-section">
+        <nav class="menu-simple-menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./resenia.html">Reseñas</a></li>
+                <li><a href="#">Acerca de Nostros</a></li>
+                <li><a href="#">Acceso</a></li>        
+            </ul>
+        </nav>
     </div>
          <!-- Contenedor de formulario y mapa en grid -->
     <main class="contact-container">
@@ -43,7 +41,7 @@
         <div class="form-column">
             <h2>Formulario de Contacto</h2><br>
             <form action="https://formspree.io/f/mwpkoknw" method="POST">
-                <legend>Datos Personales:</legend>
+                <h3>Datos Personales:</h3>
                 <fieldset>
                     <label for="nombre">Nombre[*]: </label>
                     <input type="text" id="nombre" name="nombre" size="10" maxlength="15" required>
@@ -56,9 +54,9 @@
                     <label for="correo">E-mail[*]:</label>
                     <input type="email" id="correo" name="correo" required>
                 </fieldset><br>
-                <legend>Deje su comentario:</legend>
+                <h3>Deje su comentario:</h3>
                 <label for="comentarios"></label>
-                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Mensaje máx. 30 caracteres."></textarea><br>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Mensaje máx. 30 caracteres."></textarea><br>
                 <input type="checkbox" name="condiciones" id="condiciones" required> Acepto los términos y condiciones del contrato.
                 <br><br>
                 <input type="submit" value="Enviar">
