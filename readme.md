@@ -1,4 +1,4 @@
-# Entrega Final HTML+CSS. 🇦🇷
+# Entrega Final HTML+CSS+JS. 🇦🇷
 
 ## Creado por Damian Diaz.
 *Institución:* **Talento Tech.**
@@ -25,4 +25,4 @@
 
 ## Objetivo:
 <p>Crear un Sitio Web para un Negocio del rubro de Papelera y Cotillón.</p>
-   
+22/12- Se crea un carrito de Compra en el menu "Productos"   
