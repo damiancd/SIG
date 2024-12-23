@@ -22,7 +22,7 @@
             <h1>SIG Papelera</h1>
     </div>
     </header>
-    <div class="menu-section">
+    <section class="menu-section">
         <nav class="menu-simple-menu">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -30,11 +30,10 @@
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./resenia.html">Reseñas</a></li>
                 <li><a href="#">Acerca de Nostros</a></li>
-                <li><a href="#">Acceso</a></li>
-          
+                <li><a href="#">Acceso</a></li>        
             </ul>
         </nav>
-    </div>
+    </section>
     <h2>Catálogo de Productos</h2><br>
     <main class="product-container">
         <!-- Card de Producto 1 -->
@@ -42,6 +41,11 @@
             <img src="../static/img/vaso.png" alt="vaso">
             <h2>Vaso Degustacion</h2>
             <p>100cc X234 Unidades.</p>
+            <br>
+            <span>Precio: $3500</span><br>
+            <span>Stock: <span id="stock-vaso_degustacion">15</span></span><br>
+            <button onclick="agregarAlCarrito('Vaso_Degustacion', 15, 'vaso_degustacion')">Agregar</button>
+            </br
         </div>
 
         <!-- Card de Producto 2 -->
@@ -49,6 +53,10 @@
             <img src="../static/img/stretch.png" alt="film_stretch">
             <h2>Film Stretch</h2>
             <p>50cm Sin Mango X 4kg Caja X 4 Rollos.</p>
+            <br>
+            <span>Precio: $5500</span><br>
+            <span>Stock: <span id="stock-film_stretch">5</span></span><br>
+            <button onclick="agregarAlCarrito('Film_Stretch', 5, 'film_stretch')">Agregar</button>
         </div>
 
         <!-- Card de Producto 3 -->
@@ -56,6 +64,10 @@
             <img src="../static/img/caja.png" alt="caja_desayuno">
             <h2>Caja Para Desayuno</h2>
             <p> 25x25x12 Con Visor X10 Unid.</p>
+            <br>
+            <span>Precio: $7300</span><br>
+            <span>Stock: <span id="stock-caja_desayuno">18</span></span><br>
+            <button onclick="agregarAlCarrito('Caja_Desayuno', 18, 'caja_desayuno')">Agregar</button>
         </div>
 
         <!-- Card de Producto 4 -->
@@ -63,7 +75,36 @@
             <img src="../static/img/resi2.png" alt="film_resinite">
             <h2>Film Resinite</h2>
             <p>45cm X 1000mts.</p>
+            <br>
+            <span>Stock: <span id="stock-film_resinite">3</span></span><br>
+            <button onclick="agregarAlCarrito('Film_Resinite', 3, 'film_resinite')">Agregar</button>
         </div>
+    <div class="sidebar hidden" id="sidebar">
+        <div class="sidebar-header"><i class="fas fa-shopping-cart"></i>Carrito</div>
+        <ul id="lista-carrito" class="sidebar-products"></ul>
+        <div id="carrito">
+            <ul id="lista-carrito"></ul>
+            <p>Subtotal: $<span id="subtotal-carrito">0</span></p>
+            <p>Descuento: $<span id="descuento-carrito">0</span></p>
+            <p>IVA (21%): $<span id="iva-carrito">0</span></p>
+            <p><strong>Total: $<span id="total-carrito">0</span></strong></p>
+        </div>
+        <div class="sidebar-footer">
+            <button onclick="mostrarCheckout()">Checkout</button>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        </div>
+    </div>
+    <div id="checkout-modal">
+        <div class="checkout-content">
+            <h2>Finalizar Compra</h2>
+            <p>Subtotal: $<span id="modal-subtotal">0</span></p>
+            <p>Descuento: $<span id="modal-descuento">0</span></p>
+            <p>IVA: $<span id="modal-iva">0</span></p>
+            <p><strong>Total a Pagar: $<span id="modal-total">0</span></strong></p>
+            <button onclick="realizarCompra()">Confirmar Compra</button>
+            <button onclick="cerrarCheckout()">Cancelar</button>
+        </div>
+    </div>
     </main>
     <footer>
         <div class="footer-container">
@@ -77,6 +118,6 @@
             <p>&copy; 2024 - SIG Papelera - Todos los derechos reservados</p>
         </div>
     </footer> 
-    
+    <script src="/js/app.js"></script>
 </body>
 </html>
