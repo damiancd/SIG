@@ -255,9 +255,9 @@ nav ul li {
     height: 500px;;
 }
 
-.hidden {
+/*.hidden {
     display: none;
-}
+}*/
 
 /* Responsive Styles */
 @media screen and (max-width: 992px) {
