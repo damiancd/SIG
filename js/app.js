@@ -209,10 +209,3 @@ function cerrarCheckout() {
     const modal = document.getElementById('checkout-modal');
     modal.style.display = 'none';
 }
-
-
-document.getElementById('sidebar-toggle').addEventListener('click', function() {
-    var sidebar = document.getElementById('sidebar');
-    sidebar.classList.toggle('show'); // Alternar la visibilidad del sidebar
-    this.classList.toggle('active'); // Cambiar el color del botón
-});
