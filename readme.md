@@ -1,4 +1,4 @@
-# Pre-entrega HTML+CSS. 🇦🇷
+# Entrega Final HTML+CSS. 🇦🇷
 
 ## Creado por Damian Diaz.
 *Institución:* **Talento Tech.**
@@ -11,6 +11,7 @@
    <ul>
       <li>html.</li>
       <li>CSS.</li>
+      <li>JavaScript.</li>
       <li>Github.</li>
    </ul>
 </ul>
