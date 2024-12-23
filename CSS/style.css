@@ -380,7 +380,7 @@ button:hover {
 }
 
 /* Estilos adicionales para la columna lateral */
-.sidebar {
+/*.sidebar {
     position: fixed;
     top: 0;
     right: 0;
@@ -393,7 +393,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+}*/
 
 .sidebar-header {
     font-size: 1.5em;
