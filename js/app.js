@@ -72,13 +72,7 @@ function renderizarCarrito() {
     const totalCarrito = document.getElementById('total-carrito');
     const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
-    if (carrito.length > 0) {
-        sidebar.classList.remove('hidden');
-    } else {
-        sidebar.classList.add('hidden');
-    }
-    
-    // Limpiar lista anterior
+   // Limpiar lista anterior
     listaCarrito.innerHTML = '';
     
     // Totales iniciales
