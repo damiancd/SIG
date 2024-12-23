@@ -393,7 +393,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}*/
+}
 
 .sidebar-header {
     font-size: 1.5em;
@@ -420,5 +420,5 @@ button:hover {
 .sidebar-footer button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
-}
+}*/
         
