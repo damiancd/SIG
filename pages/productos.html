@@ -79,32 +79,32 @@
             <span>Stock: <span id="stock-film_resinite">3</span></span><br>
             <button onclick="agregarAlCarrito('Film_Resinite', 3, 'film_resinite')">Agregar</button>
         </div>
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-header"><i class="fas fa-shopping-cart"></i>Carrito</div>
-        <ul id="lista-carrito" class="sidebar-products"></ul>
-        <div id="carrito">
-            <ul id="lista-carrito"></ul>
-            <p>Subtotal: $<span id="subtotal-carrito">0</span></p>
-            <p>Descuento: $<span id="descuento-carrito">0</span></p>
-            <p>IVA (21%): $<span id="iva-carrito">0</span></p>
-            <p><strong>Total: $<span id="total-carrito">0</span></strong></p>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header"><i class="fas fa-shopping-cart"></i>Carrito</div>
+            <ul id="lista-carrito" class="sidebar-products"></ul>
+            <div id="carrito">
+                <ul id="lista-carrito"></ul>
+                <p>Subtotal: $<span id="subtotal-carrito">0</span></p>
+                <p>Descuento: $<span id="descuento-carrito">0</span></p>
+                <p>IVA (21%): $<span id="iva-carrito">0</span></p>
+                <p><strong>Total: $<span id="total-carrito">0</span></strong></p>
+            </div>
+            <div class="sidebar-footer">
+                <button onclick="mostrarCheckout()">Checkout</button>
+                <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+            </div>
         </div>
-        <div class="sidebar-footer">
-            <button onclick="mostrarCheckout()">Checkout</button>
-            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        <div id="checkout-modal">
+            <div class="checkout-content">
+                <h2>Finalizar Compra</h2>
+                <p>Subtotal: $<span id="modal-subtotal">0</span></p>
+                <p>Descuento: $<span id="modal-descuento">0</span></p>
+                <p>IVA: $<span id="modal-iva">0</span></p>
+                <p><strong>Total a Pagar: $<span id="modal-total">0</span></strong></p>
+                <button onclick="realizarCompra()">Confirmar Compra</button>
+                <button onclick="cerrarCheckout()">Cancelar</button>
+            </div>
         </div>
-    </div>
-    <div id="checkout-modal">
-        <div class="checkout-content">
-            <h2>Finalizar Compra</h2>
-            <p>Subtotal: $<span id="modal-subtotal">0</span></p>
-            <p>Descuento: $<span id="modal-descuento">0</span></p>
-            <p>IVA: $<span id="modal-iva">0</span></p>
-            <p><strong>Total a Pagar: $<span id="modal-total">0</span></strong></p>
-            <button onclick="realizarCompra()">Confirmar Compra</button>
-            <button onclick="cerrarCheckout()">Cancelar</button>
-        </div>
-    </div>
     </main>
     <footer>
         <div class="footer-container">
