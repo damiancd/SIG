@@ -379,45 +379,46 @@ button:hover {
     width: 300px;
 }
 
-        /* Estilos adicionales para la columna lateral */
-        .sidebar {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 300px;
-            height: 100%;
-            background-color: #f4f4f4;
-            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+/* Estilos adicionales para la columna lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-        .sidebar-header {
-            font-size: 1.5em;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
+.sidebar-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
-        .sidebar-products {
-            flex-grow: 1;
-        }
+.sidebar-products {
+    flex-grow: 1;
+}
 
-        .sidebar-footer button {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            font-size: 1em;
-        }
+.sidebar-footer button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
 
-        .sidebar-footer button:last-child {
-            background-color: #ff5252;
-            color: white;
-        }
+.sidebar-footer button:last-child {
+    background-color: #ff5252;
+    color: white;
+}
 
-        .sidebar-footer button:disabled {
-            background-color: #ccc;
-            cursor: not-allowed;
-        }
+.sidebar-footer button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+        
